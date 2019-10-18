@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#main-board {
+  height: 400px;
+  width: 400px;
+  background-color: #282c34;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 3px black solid;
+}
+
+.blackSquare {
+  background-color: #7b8fff;
+}
+
+.blackSquare:hover {
+  background-color: #2f4fff;
+}
+
+.whiteSquare {
+  background-color: #ffffff;
+}
+
+.whiteSquare:hover {
+  background-color: #ffffffd2;
+}
